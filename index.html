@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A waitstaff calculator">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="container">
+        <header>
+            <h1>Waitstaff Calculator</h1>
+        </header>
+        <section>
+            <h2>Enter the Meal Details</h2>
+                <label>Base Meal Price: $</label>
+                <input><br>
+                <label>Tax Rate: %</label>
+                <input><br>
+                <label>Tip Percentage: %</label>
+                <input><br>
+                <button>Submit</button>
+                <button>Cancel</button>
+        </section>
+        <section>
+            <h2>Customer Charges</h2>
+                <h3>Subtotal: 
+                    <span id="subtotal"></span>
+                </h3>
+                <h3>Tip: 
+                    <span id="tip"></span>
+                </h3>
+                <h3>Total: 
+                    <span id="total"></span>
+                </h3>
+        </section>
+        <section>
+            <h2>My Earnings Info</h2>
+                <h3>Tip Total: 
+                    <span id="tip-total"></span>
+                </h3>
+                <h3>Meal count: 
+                    <span id="meal-count"></span>
+                </h3>
+                <h3>Average Tip Per Meal: 
+                    <span id="average-tip-per-meal"></span>
+                </h3>
+        </section>
+        <section>
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
